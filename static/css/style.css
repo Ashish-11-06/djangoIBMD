@@ -19,6 +19,35 @@ body {
     background: linear-gradient(135deg, #e8efff, #f7f8fc);
 }
 
+.welcome-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: linear-gradient(135deg, #e8efff, #f7f8fc);
+}
+
+.welcome-card {
+    width: 100%;
+    max-width: 560px;
+    padding: 48px 36px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 15px 45px rgba(30, 50, 90, 0.10);
+    text-align: center;
+}
+
+.welcome-card h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.welcome-card p {
+    margin: 14px 0 0;
+    color: #6b7280;
+}
+
 .login-card {
     width: 100%;
     max-width: 420px;
